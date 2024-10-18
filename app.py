@@ -24,5 +24,5 @@ if build_histogram: # si la casilla de verificación está seleccionada
 scatt_button = st.button('Construir gráfica de dispersión')
 if scatt_button:
     st.write('Crea un gráfico de dispersión sobre la columna precio')
-    fig2 = px.scatter(car_data, x="price")
+    fig2 = px.scatter(car_data, x="odometer", y="price")
 st.plotly_chart(car_data)  #Grafica de dispersion
