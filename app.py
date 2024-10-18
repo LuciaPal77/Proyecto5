@@ -25,4 +25,4 @@ scatt_button = st.button('Construir gráfica de dispersión')
 if scatt_button:
     st.write('Crea un gráfico de dispersión')
     fig2 = px.scatter(car_data, x="odometer", y="price")
-    st.plotly_chart(fig2,use_container_width=True)  #Grafica de dispersion
+    st.plotly_chart(fig2, use_container_width=True)  #Grafica de dispersion
